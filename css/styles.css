@@ -1,4 +1,60 @@
-h1 {
-    color: goldenrod;
-    background-color: rgb(29, 68, 173);
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    background-color: lightskyblue ;
+    padding-left: 65%;
+    padding-right: 5%;
 }
+
+.item {
+    height: 60px;
+    text-align: left;
+    font-size: 1.3em;
+    color: white;
+}
+
+.item div {
+    margin-top: 18px;
+}
+
+.menu {
+    visibility: hidden;
+}
+
+/*
+@media (max-width: 650px) {
+    .container {
+        display: block;
+        height: 305px;
+        padding-left: 0px;
+    }
+    .item {
+        display: block;
+        border-bottom: 1px solid darkblue;
+    }
+    .item div {        
+        text-align: center;
+    }
+}*/
+
+@media (max-width: 650px) {
+    .container {
+        /*display: block;*/
+        padding-left: 5%;
+    }
+    .item {
+        visibility: hidden;
+    }
+    .menu {
+        visibility: visible;
+        margin-top: 10px;
+    }
+    .menu div {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+      }
+}    
