@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     height: 60px;
-    background-color: lightskyblue ;
+    background-color: rgb(103, 176, 221) ;
     padding-left: 65%;
     padding-right: 5%;
 }
@@ -47,14 +47,5 @@
     .item {
         visibility: hidden;
     }
-    .menu {
-        visibility: visible;
-        margin-top: 10px;
-    }
-    .menu div {
-        width: 35px;
-        height: 5px;
-        background-color: white;
-        margin: 6px 0;
-      }
+
 }    

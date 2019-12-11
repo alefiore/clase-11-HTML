@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejercicio 2</title>
+    <link href="ce/template.html" rel="import" />
+    <script src="ce/custom.js"></script>
     <link rel="stylesheet" href="css/styles.css" >
 </head>
 <body>
     <div class="container">
-        <div class="menu">
-            <div></div>
-            <div></div>
-            <div></div>    
-        </div>
+        <mi-menu ></mi-menu>
 
         <!-- <div class="menu"><img src="./images/menu-icon.png" alt="Menu" height="60" width="60" ></div>   -->
 
@@ -23,5 +21,12 @@
         <div class="item"><div>Contact</div></div>
         
     </div>
+
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script> 
+
 </body>
 </html>
